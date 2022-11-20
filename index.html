@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Programação Web</title>
+
+    <link rel="stylesheet" href="css/css/style.css">
+    <script src="js/js/script1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Programação Web Ads Noite - P2</h1>
+    </header>
+    <main>
+        <div class="titulo">
+            <h2>Período 2022.2</h2>
+            <span>Controle de Notas</span><br>
+           <!-- // <hr><br> -->
+        </div>
+        <div class="card">
+          
+            <div class="lineInput">
+                <label>Nome do Aluno: <br></label>
+                <input type="text" name="" id="nome" placeholder="Nome" size="50px">
+            </div>
+            <div class="lineInput">
+                <label>Matrícula: <br></label>
+                <input type="text" name="" id="matricula" placeholder="Matrícula" size="50px">
+            </div>
+            <div class="lineInput">
+                <label>Nota 01: <br></label>
+                <input type="text" name="" id="nota01" placeholder="Nota 01" size="50px">
+            </div>
+            <div class="lineInput">
+                <label>Nota 02: <br></label>
+                <input type="text" name="" id="nota02" placeholder="Nota 02" size="50px">
+            </div>
+            <div class="lineInput">
+                <label>Nota 03: <br></label>
+                <input type="text" name="" id="nota03" placeholder="Nota 03" size="50px">
+            </div>
+            
+        <button onclick="aluno.salvar()">Salvar</button>
+        <button onclick="aluno.cancelar()">Cancelar</button>
+
+        </div>
+
+        <div class="content">
+            <table border="1px">
+                <thead>
+                    <th class="center">Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 01</th>
+                    <th>Nota 02</th>
+                    <th>Nota 03</th>
+                    <th>Média</th>
+                    <th>Deletar</th>
+                </thead>
+                
+                <tbody id="tbody">       
+                    <!-- 
+                     -->               
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+        
+    
+    
+</body>
+
+</html>
